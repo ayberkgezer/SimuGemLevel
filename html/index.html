@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/global.css">
+    <link rel="stylesheet" href="../public/css/index.css">
+    <title>POE Gems</title>
+    </head>
+<body>
+    <header class="blur">
+        <div class="container">
+            <nav id="navbar1" class="">
+                <h1 class="heding-big" data-text="POE Gems">POE Gems</h1>
+                <ul class="">
+                    <li>
+                        <a class="" href="index.html">Main</a>
+                    </li>
+                    <li>
+                        <a class="" href="directory.html">Directory</a>
+                    </li>
+                    <li>
+                        <a class="" href="favorites.html">Gem Favorites</a>
+                    </li>
+                    <li>
+                        <a class="" href="yourrun.html">Your Run</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">Aouthrize</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">Patreon</a>
+                    </li>
+                </ul>                
+            </nav>
+        </div>
+    </header>
+    <div class="leaderboard-top">
+        <div id="leaderboard-top"></div>
+    </div>
+    <div id="main" class="">
+        <div class="main">
+            <div class="sidebar blur2">
+                <section>
+                    <div>
+                        <h1 class="heading heading-medium text-center">Gems Search</h1>
+                        <div class="search-sidebar">
+                            <label for="" class="gem-select">
+                                <span class="name">League</span>
+                                <select name="" id="League" class="search-select">
+                                    <option value="">Softcore</option>
+                                    <option value="">Hardcore</option>
+                                    <option value="">Standart</option>
+                                </select>
+                            </label>
+                            <div class="input-search" style="position: relative;">
+                                <input type="text" class="" placeholder="Filter By Gem Name">
+                            </div>
+                            <label for="" class="gem-select">
+                                <span class="name">Level</span>
+                                <select name="" id="Level" class="search-select">
+                                    <option value="">All</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                    <option value="">6</option>
+                                    <option value="">7</option>
+                                    <option value="">8</option>
+                                    <option value="">9</option>
+                                    <option value="">10</option>
+                                    <option value="">11</option>
+                                    <option value="">12</option>
+                                    <option value="">13</option>
+                                    <option value="">14</option>
+                                    <option value="">15</option>
+                                    <option value="">16</option>
+                                    <option value="">17</option>
+                                    <option value="">18</option>
+                                    <option value="">19</option>
+                                    <option value="">20</option>
+                                    <option value="">21</option>
+                                </select>
+                            </label>
+                            <label for="" class="gem-select">
+                                <span class="name">Quality</span>
+                                <select name="" id="Level" class="search-select">
+                                    <option value="">All</option>
+                                    <option value="20">20</option>
+                                    <option value="23">23</option>
+                                    <option value="0-19">0-19</option>
+                                </select>
+                            </label>
+                            <label for="" class="gem-select">
+                                <span class="name">Corrupt</span>
+                                <select name="" id="Level" class="search-select">
+                                    <option value="All">All</option>
+                                    <option value="1">Yes</option>
+                                    <option value="2">No</option>
+                                </select>
+                            </label>
+                            <label for="" class="gem-select">
+                                <span class="name">Type</span>
+                                <select name="" id="Level" class="search-select">
+                                    <option value="All">All</option>
+                                    <option value="">Anemalous</option>
+                                    <option value="">Awakened</option>
+                                    <option value="">Divergent</option>
+                                    <option value="">Phantasmal</option>
+                                    <option value="">Normal</option>
+                                    <option value="">Vall</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div>
+                            <h4 class=""></h4>
+                            <div class="avatar">
+                                <div>
+                                    <span class="text-center">Path Of Exile</span>
+                                </div>
+                                <div class="avatar-image">
+                                    <img src="https://web.poecdn.com/gen/image/WzAsMSx7ImlkIjowLCJzaXplIjoiYXZhdGFyIn1d/1cbf9cc398/Path_of_Exile_Gallery_Image.jpg" alt="Patf Exile Avatar Image">
+                                </div>
+                                <div class="">
+                                    <span>KRRei</span>
+                                </div>
+                                <div class="button">
+                                    <button class="logout-button">Logout</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="patreon-side">
+                                <div>
+                                    <button class="patreon-button">Patreon</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div>
+
+                    </div>
+                </section>
+            </div>
+            <div class="content ">
+                <section>
+                    <div class="t1 blur2">
+                        <div class="item-overwiev">
+                            <div class="t2">
+                                <div>
+                                    <h1>Skill Gems</h1>
+                                </div>
+                                <div>
+                                    <div class="t3">
+                                        <table class="table-1">
+                                            <thead>
+                                                <tr>
+                                                    <th class="sortable text-left heading-medium">Name</th>
+                                                    <th class="sortable heading-medium">Level</th>
+                                                    <th class="sortable heading-medium">Quality</th>
+                                                    <th class="sortable heading-medium">Corrupt</th>
+                                                    <th class="sortable text-center heading-medium">Value</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {{#each post}}
+                                                <tr class="t1body">
+                                                    <td>
+                                                        <div theme="flush">
+                                                            <div class="t1body1">
+                                                                <div class="t1body2">
+                                                                    <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png" alt="Gems Img">
+                                                                </div>
+                                                                <a class="t1bodya" href="" aria-label="See more dateils Path Of Exile Wiki">
+                                                                    <span class="heading-small">
+                                                                        Awakened Multistrike Support
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center heading-small">6</td>
+                                                    <td class="text-center heading-small">23</td>
+                                                    <td class="text-center heading-small">Yes</td> 
+                                                    <td class="sorted sorted-desk t1bodyv">
+                                                        <span title="Exalted Orb" style="display: grid; grid: 1fr / min-content min-content 1.5rem; grid-gap: 0.5rem; align-items: center; justify-content: end;">
+                                                            53.7
+                                                            <img src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyAddModToRare.png?scale=1&w=1&h=1" alt="Exalted" title="Exalted Orb" width="47">
+                                                        </span>
+                                                    </td> 
+                                                </tr>
+                                                <tr class="t1body">
+                                                    <td>
+                                                        <div theme="flush">
+                                                            <div class="t1body1">
+                                                                <div class="t1body2">
+                                                                    <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL0dyZWF0ZXJNdWx0aXBsZVByb2plY3RpbGVzUGx1cyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/720eb18ad1/GreaterMultipleProjectilesPlus.png" alt="Gems Img">
+                                                                </div>
+                                                                <a class="t1bodya" href="" aria-label="See more dateils Path Of Exile Wiki">
+                                                                    <span class="heading-small">
+                                                                        Awakened Greater Multiple Projectiles Support
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center heading-small">6</td>
+                                                    <td class="text-center heading-small">23</td>
+                                                    <td class="text-center heading-small">Yes</td> 
+                                                    <td class="sorted sorted-desk t1bodyv">
+                                                        <span title="Exalted Orb" style="display: grid; grid: 1fr / min-content min-content 1.5rem; grid-gap: 0.5rem; align-items: center; justify-content: end;">
+                                                            53.7
+                                                            <img src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyAddModToRare.png?scale=1&w=1&h=1" alt="Exalted" title="Exalted Orb" width="47">
+                                                        </span>
+                                                    </td> 
+                                                </tr>
+                                                <tr class="t1body">
+                                                    <td>
+                                                        <div theme="flush">
+                                                            <div class="t1body1">
+                                                                <div class="t1body2">
+                                                                    <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png" alt="Gems Img">
+                                                                </div>
+                                                                <a class="t1bodya" href="" aria-label="See more dateils Path Of Exile Wiki">
+                                                                    <span class="heading-small">
+                                                                        Awakened Multistrike Support
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center heading-small">6</td>
+                                                    <td class="text-center heading-small">23</td>
+                                                    <td class="text-center heading-small">Yes</td> 
+                                                    <td class="sorted sorted-desk t1bodyv">
+                                                        <span title="Exalted Orb" style="display: grid; grid: 1fr / min-content min-content 1.5rem; grid-gap: 0.5rem; align-items: center; justify-content: end;">
+                                                            53.7
+                                                            <img src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyAddModToRare.png?scale=1&w=1&h=1" alt="Exalted" title="Exalted Orb" width="47">
+                                                        </span>
+                                                    </td> 
+                                                </tr>
+                                                <tr class="t1body">
+                                                    <td>
+                                                        <div theme="flush">
+                                                            <div class="t1body1">
+                                                                <div class="t1body2">
+                                                                    <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png" alt="Gems Img">
+                                                                </div>
+                                                                <a class="t1bodya" href="" aria-label="See more dateils Path Of Exile Wiki">
+                                                                    <span class="heading-small">
+                                                                        Awakened Multistrike Support
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center heading-small">6</td>
+                                                    <td class="text-center heading-small">23</td>
+                                                    <td class="text-center heading-small">Yes</td> 
+                                                    <td class="sorted sorted-desk t1bodyv">
+                                                        <span title="Exalted Orb" style="display: grid; grid: 1fr / min-content min-content 1.5rem; grid-gap: 0.5rem; align-items: center; justify-content: end;">
+                                                            53.7
+                                                            <img src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyAddModToRare.png?scale=1&w=1&h=1" alt="Exalted" title="Exalted Orb" width="47">
+                                                        </span>
+                                                    </td> 
+                                                </tr>
+                                                <tr class="t1body">
+                                                    <td>
+                                                        <div theme="flush">
+                                                            <div class="t1body1">
+                                                                <div class="t1body2">
+                                                                    <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png" alt="Gems Img">
+                                                                </div>
+                                                                <a class="t1bodya" href="" aria-label="See more dateils Path Of Exile Wiki">
+                                                                    <span class="heading-small">
+                                                                        Awakened Multistrike Support
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center heading-small">6</td>
+                                                    <td class="text-center heading-small">23</td>
+                                                    <td class="text-center heading-small">Yes</td> 
+                                                    <td class="sorted sorted-desk t1bodyv">
+                                                        <span title="Exalted Orb" style="display: grid; grid: 1fr / min-content min-content 1.5rem; grid-gap: 0.5rem; align-items: center; justify-content: end;">
+                                                            53.7
+                                                            <img src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyAddModToRare.png?scale=1&w=1&h=1" alt="Exalted" title="Exalted Orb" width="47">
+                                                        </span>
+                                                    </td> 
+                                                </tr>
+                                                <tr class="t1body">
+                                                    <td>
+                                                        <div theme="flush">
+                                                            <div class="t1body1">
+                                                                <div class="t1body2">
+                                                                    <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png" alt="Gems Img">
+                                                                </div>
+                                                                <a class="t1bodya" href="" aria-label="See more dateils Path Of Exile Wiki">
+                                                                    <span class="heading-small">
+                                                                        Awakened Multistrike Support
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center heading-small">6</td>
+                                                    <td class="text-center heading-small">23</td>
+                                                    <td class="text-center heading-small">Yes</td> 
+                                                    <td class="sorted sorted-desk t1bodyv">
+                                                        <span title="Exalted Orb" style="display: grid; grid: 1fr / min-content min-content 1.5rem; grid-gap: 0.5rem; align-items: center; justify-content: end;">
+                                                            53.7
+                                                            <img src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyAddModToRare.png?scale=1&w=1&h=1" alt="Exalted" title="Exalted Orb" width="47">
+                                                        </span>
+                                                    </td> 
+                                                </tr>
+                                                <tr class="t1body">
+                                                    <td>
+                                                        <div theme="flush">
+                                                            <div class="t1body1">
+                                                                <div class="t1body2">
+                                                                    <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png" alt="Gems Img">
+                                                                </div>
+                                                                <a class="t1bodya" href="" aria-label="See more dateils Path Of Exile Wiki">
+                                                                    <span class="heading-small">
+                                                                        Awakened Multistrike Support
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center heading-small">6</td>
+                                                    <td class="text-center heading-small">23</td>
+                                                    <td class="text-center heading-small">Yes</td> 
+                                                    <td class="sorted sorted-desk t1bodyv">
+                                                        <span title="Exalted Orb" style="display: grid; grid: 1fr / min-content min-content 1.5rem; grid-gap: 0.5rem; align-items: center; justify-content: end;">
+                                                            53.7
+                                                            <img src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyAddModToRare.png?scale=1&w=1&h=1" alt="Exalted" title="Exalted Orb" width="47">
+                                                        </span>
+                                                    </td> 
+                                                </tr>
+                                                <tr class="t1body">
+                                                    <td>
+                                                        <div theme="flush">
+                                                            <div class="t1body1">
+                                                                <div class="t1body2">
+                                                                    <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png" alt="Gems Img">
+                                                                </div>
+                                                                <a class="t1bodya" href="" aria-label="See more dateils Path Of Exile Wiki">
+                                                                    <span class="heading-small">
+                                                                        Awakened Multistrike Support
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center heading-small">6</td>
+                                                    <td class="text-center heading-small">23</td>
+                                                    <td class="text-center heading-small">Yes</td> 
+                                                    <td class="sorted sorted-desk t1bodyv">
+                                                        <span title="Exalted Orb" style="display: grid; grid: 1fr / min-content min-content 1.5rem; grid-gap: 0.5rem; align-items: center; justify-content: end;">
+                                                            53.7
+                                                            <img src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyAddModToRare.png?scale=1&w=1&h=1" alt="Exalted" title="Exalted Orb" width="47">
+                                                        </span>
+                                                    </td> 
+                                                </tr>
+                                                <tr class="t1body">
+                                                    <td>
+                                                        <div theme="flush">
+                                                            <div class="t1body1">
+                                                                <div class="t1body2">
+                                                                    <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL011bHRpcGxlQXR0YWNrc1BsdXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c32ddc2121/MultipleAttacksPlus.png" alt="Gems Img">
+                                                                </div>
+                                                                <a class="t1bodya" href="" aria-label="See more dateils Path Of Exile Wiki">
+                                                                    <span class="heading-small">
+                                                                        Awakened Multistrike Support
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="text-center heading-small">6</td>
+                                                    <td class="text-center heading-small">23</td>
+                                                    <td class="text-center heading-small">Yes</td> 
+                                                    <td class="sorted sorted-desk t1bodyv">
+                                                        <span title="Exalted Orb" style="display: grid; grid: 1fr / min-content min-content 1.5rem; grid-gap: 0.5rem; align-items: center; justify-content: end;">
+                                                            53.7
+                                                            <img src="https://web.poecdn.com/image/Art/2DItems/Currency/CurrencyAddModToRare.png?scale=1&w=1&h=1" alt="Exalted" title="Exalted Orb" width="47">
+                                                        </span>
+                                                    </td> 
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+    </div>
+    <footer>
+        <div>
+
+        </div>
+    </footer>
+    <script src="../js/gemsapi.js"></script>
+</body>
+</html>
