@@ -1,3 +1,5 @@
 # gsr
 
-First run to Terminal "npm run boot" run this project
+Çalıştırmak için terminale "npm run boot" yazılması gerekir.
+
+
