@@ -12,4 +12,4 @@ Elle girilmesi gereken gemxp collection altındaki veriler deneme yapılması i�
 
 {  "_id": {    "$oid": "628fd85ca935775f1883cf0f"  },  "normalxp": 90000000,  "awakenedxp": {    "$numberLong": "90000000000"  },  "names": "Empower Support",  "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL0VtcG93ZXJQbHVzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/eb0e6f91ed/EmpowerPlus.png"}
 
-{  "_id": {    "$oid": "628fee38a935775f1883cf11"  },  "normalxp": 90000000,  "awakenedxp": {    "$numberLong": "90000000000"  },  "names": "Enlighten Support",  "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL0VtcG93ZXJQbHVzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/eb0e6f91ed/EmpowerPlus.png"}
+{  "_id": {    "$oid": "628fee38a935775f1883cf11"  },  "normalxp": 100000000,  "awakenedxp": {    "$numberLong": "100000000000"  },  "names": "Enlighten Support",  "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1N1cHBvcnRQbHVzL0VtcG93ZXJQbHVzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/eb0e6f91ed/EmpowerPlus.png"}
